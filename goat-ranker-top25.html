@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NBA GOAT Ranker (Top 25)</title>
+  <link rel="stylesheet" href="goat-ranker-top25.css" />
+</head>
+<body>
+  <div id="header">
+    <a href="https://lukeq05.github.io/NBA-teammate-game/" class="nav-link">🏀 Back to NBA Teammate Game</a>
+  </div>
+  <div id="goat-ranker">
+    <h1>🔥 NBA GOAT Ranking Quiz (Top 25)</h1>
+    <p id="progress">Matchup 1 of X</p>
+    <div id="matchup">
+      <button id="left" onclick="choose('left')">Player A</button>
+      <span>vs</span>
+      <button id="right" onclick="choose('right')">Player B</button>
+    </div>
+    <div id="final-ranking" style="display:none;"></div>
+  </div>
+  <script src="goat-ranker-top25.js"></script>
+</body>
+</html>
